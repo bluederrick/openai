@@ -1,0 +1,34 @@
+body{
+  background-color: black;
+}
+.Wrapper{
+  display: flex;
+  justify-content: center;
+
+  height: 80px;
+}
+
+img{
+  height: 30px;
+
+}
+
+input{
+  width: 80vw;
+  height: 30px;
+  opacity: 0.8;
+  border-radius: 6px;
+  background-color: black;
+  color: aqua;
+}
+
+
+button{
+  height: 30px;
+  padding: 10px;
+
+}
+
+.cg-loading{
+  animation: rotation 2s linear infinite;
+}
