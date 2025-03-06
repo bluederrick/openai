@@ -93,10 +93,7 @@ app.post('/chats', (req, res) => {
             console.log(error.response.data);
         }
     }
-    // console.log(chatCompletion.data.choices[0].message);
-    ; // data property is object that contains the response 
-    // your ans will be stored in response in your react
-    // console.log((completion.data.choices[0].message))
+    
 })
 
 
